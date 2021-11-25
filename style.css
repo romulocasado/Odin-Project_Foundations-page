@@ -1,0 +1,48 @@
+/* General Style */
+
+.body  {
+   display: flex;
+   flex-direction: column;
+}
+
+
+/* Nav-bar Style */
+.nav-bar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #7DAF79;
+}
+.img {
+   max-width: 100px;
+   max-height: 100px;
+}
+.links a {
+   margin: 10px;
+   text-decoration: none;
+   color: #042901;
+}
+.links a:hover {
+   color: #075f01;
+}
+
+/* Corpo 1 Style */
+
+.body2 {
+   display: flex;
+   justify-content: space-around;
+   background-color: #7DAF79;
+}
+.img2 {
+   max-width: 400px;
+   max-height: 400px;
+   margin: 20px;
+}
+
+/* Footer Style */
+
+.footer {
+   text-align: center;
+   background-color: #7DAF79;
+   color: #042901;
+}
